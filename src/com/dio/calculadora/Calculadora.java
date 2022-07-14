@@ -21,10 +21,10 @@ public class Calculadora {
 		int multiplicacao = multiplicacao(a,b);
 		double divisao = divisao (a,b);
 		
-		System.out.println("soma" +soma);
-		System.out.println("subtração" +subtracao);
-		System.out.println("divisao" +divisao);
-		System.out.println("multiplicação" +multiplicacao);
+		System.out.println("soma: " +soma);
+		System.out.println("subtração: " +subtracao);
+		System.out.println("divisao: " +divisao);
+		System.out.println("multiplicação: " +multiplicacao);
 	}
 
 	public static int soma (int a, int b) {
