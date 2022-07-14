@@ -30,6 +30,17 @@ public class main {
 		AreaQuadrilatero.calculaAreaQuadrado(2, 2);
 		AreaQuadrilatero.calculaAreaRetangulo(5, 2);
 		AreaQuadrilatero.calculaAreatrapezio(3, 3, 2);
+		
+		System.out.println("Exercício Return: ");
+		double areaQuadrado  = AreaQuadrilateroReturn.area(2,3);
+		double areaRetangulo = AreaQuadrilateroReturn.area(2,3);
+		double areaTrapezio  = AreaQuadrilateroReturn.area(6, 3, 2);
+		System.out.println(areaQuadrado);
+		System.out.println(areaRetangulo);
+		System.out.println(areaTrapezio);
 	}
+	
+		
+		
 
 }
