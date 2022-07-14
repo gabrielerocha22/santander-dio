@@ -26,7 +26,10 @@ public class main {
 		Emprestimo.calcula(1000, 5);
 		
 		
-		
+		System.out.println("Exercício Calcular Área:");
+		AreaQuadrilatero.calculaAreaQuadrado(2, 2);
+		AreaQuadrilatero.calculaAreaRetangulo(5, 2);
+		AreaQuadrilatero.calculaAreatrapezio(3, 3, 2);
 	}
 
 }
