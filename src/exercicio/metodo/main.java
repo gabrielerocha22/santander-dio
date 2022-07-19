@@ -38,6 +38,10 @@ public class main {
 		System.out.println(areaQuadrado);
 		System.out.println(areaRetangulo);
 		System.out.println(areaTrapezio);
+		
+		
+
+		
 	}
 	
 		
