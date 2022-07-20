@@ -1,10 +1,32 @@
 package com.dio.estruturas;
 
+import java.util.Scanner;
+
 public class EstruturasRepetiçãoParImpar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
 
+		int quantNumeros;
+		int numero;
+		int quantPares = 0, quantImpares = 0;
+		
+		System.out.println("Quantidade de números: ");
+		quantNumeros = scan.nextInt();
+		
+		int count = 0;
+		do {
+			System.out.println("Número: ");
+			numero = scan.nextInt();
+			
+			if (numero % 2 == 0) quantPares++;
+			else quantImpares++;
+			count = count + 1;
+			
+		} while(count < quantNumeros);
+		
+		System.out.println("Quantidade de numeros pares: " +quantPares);
+		System.out.println("Quantidade de numeros pares: " +quantImpares);
 	}
 
 }
